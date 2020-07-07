@@ -1,0 +1,17 @@
+.main-part {
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-part {
+    &__image { 
+        margin-top: 100px;
+    }
+}
+
+.main-part p {   
+        position: absolute;
+        top: 50%;
+        color: #fff;
+}
